@@ -1,0 +1,72 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="TestYouTubeEx.VideoPager"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape" Orientation="Landscape"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent" >
+        <!--<Grid x:Name="ContentLayout" >
+            <Grid.RowDefinitions >
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            --><!--<MediaElement x:Name="player" Grid.Row="0" DoubleTap="player_DoubleTap" Stretch="Fill" Margin="10,0,0,0" MediaOpened="player_MediaOpened" BufferingTime="0:0:10" MediaEnded="player_MediaEnded" BindingValidationError="player_BindingValidationError" BufferingProgressChanged="player_BufferingProgressChanged" />-->
+            
+            <!--<Grid x:Name="Navigation" Grid.Row="1"  VerticalAlignment="Top" Background="{StaticResource PhoneChromeBrush}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="70"/>
+                </Grid.RowDefinitions>
+                <Button x:Name="Play" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Width="158" Click="Play_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Assets/Nagivation/appbar.control.play.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="Pause" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Width="158" Click="Pause_Click" >
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Assets/Nagivation/appbar.control.pause.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="Preview" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" Width="158" Click="Preview_Click" >
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Assets/Nagivation/appbar.control.rewind.variant.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="Next" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Left" Width="158" Click="Next_Click" >
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Assets/Nagivation/appbar.control.fastforward.variant.png"/>
+                    </Button.Background>
+                </Button>
+                <Slider Name="timelineSlider" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"  MouseLeave="timelineSlider_MouseLeave" MouseEnter="timelineSlider_MouseEnter"  />
+            </Grid>-->
+
+            <!--<StackPanel x:Name="ToolBar" Grid.Row="1" Margin="0,121,0,163" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Background="Black" >
+                <StackPanel HorizontalAlignment="Center"  Orientation="Horizontal" x:Name="LayoutChi" Margin="48,301,48,0" Height="88" >
+                    
+
+                </StackPanel>
+                <Slider Name="timelineSlider"  MouseLeave="timelineSlider_MouseLeave" MouseEnter="timelineSlider_MouseEnter"  />
+            </StackPanel>--><!--
+        </Grid>-->
+        
+        
+
+    </Grid>
+
+</phone:PhoneApplicationPage>
